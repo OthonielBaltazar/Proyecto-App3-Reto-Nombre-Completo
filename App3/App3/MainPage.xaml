@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#8F3A84" Padding="24" CornerRadius="0">
+            <Label Text="Proyecto App3 - Reto Nombre Completo" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Entry Placeholder="Ingresa tu nombre" Text="{Binding Nombre}"></Entry>
+        <Entry Placeholder="Ingresa tu apellido paterno" Text="{Binding Apellido1}"></Entry>
+        <Entry Placeholder="Ingresa tu apellido materno" Text="{Binding Apellido2}"></Entry>
+        <Label Text="{Binding NombreCompleto}"></Label>
+        <Image Source="https://media.vlpt.us/images/kyungjin/post/fdd5cc22-dfdc-4091-a2fb-039ce36ce9d8/%ED%8B%B0%EB%AA%A8.png"
+               HeightRequest="300" />
+    </StackLayout>
+
+</ContentPage>
